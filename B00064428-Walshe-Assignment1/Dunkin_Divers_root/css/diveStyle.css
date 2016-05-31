@@ -1,0 +1,358 @@
+/*
+ *   B00064428 Daragh Walshe	Oct.    2014
+ *   Web Applications		    Assignment_2
+ */
+
+body{
+	background-color: #AFD5DE;
+	font-family: 'tempus sans itc', 'comic sans ms', arial;
+}
+
+/*********************************************/
+
+.noWrap{
+	float: left;
+	clear: right;
+	text-align: center;
+}
+
+/*********************************************/
+/** style changer button **/
+div#header #styleButton{
+	color: yellow;
+	background: #222 url("images/ui-bg_dots-small_40_00498f_2x2.png") 50% 50% repeat;
+	float: left;
+	vertical-align: 26px;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-left: 2em;
+	margin-top: 1.5em;
+	border-radius: 0.5em;
+}
+div#header #styleButton:hover{
+	color: orange;
+	background: #000 url("images/ui-bg_dots-medium_30_0b58a2_4x4.png") 60% 60% repeat;
+}
+
+/*********************************************/
+/** Side nav bar styling **/
+aside
+{	
+	font-size: 1.1em;
+	float: left;  /*left*/
+	display: inline;
+	width: 20%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	/*margin-left: 5%;*/
+	background: #333333 url("images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png") 50% 50% repeat;
+	opacity: 0.7;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+.linkList{
+	color: white;
+	list-style-type: none;
+}
+.linkList a
+{
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.8em;	
+	padding-left: 1em;
+	color: white;
+	box-sizing: border-box;
+}
+.linkList a:hover{
+	color: yellow;
+	text-shadow: 8px 8px #000;/*#596E71*/
+}
+#thisPage{
+	color: yellow;
+}
+
+/*********************************************/
+/* page container layouts */
+.content{
+}
+#homeContent{
+	color: white;
+}
+div.leftCol{
+	width: 55%;
+	float: left;
+}
+div.leftCol{
+	color: white;/*black;*/
+	padding: 2em 4em;
+	background: #000 url("images/ui-bg_dots-medium_30_0b58a2_4x4.png") 60% 60% repeat;
+}
+
+#homeContent, #infoContent, #eventContent, #locationContent, #galleryContent{
+	margin-top: 2%;
+	width: 75%;
+	float: left;
+	padding-left: 3em;
+}
+
+div#leftGal, div#rightGal{
+	width: 20%;
+	float: left;
+}
+
+div#rightGal{
+	width: 80%;
+}
+#theGal{
+	border: 1px solid yellow;
+	box-sizing: border-box;
+	width: 55%;
+	margin-left: 5%;
+	height: 500px;
+}
+.selectImg{
+	width: 92%;
+	height: 80%;
+	margin-left: auto;
+	margin-top: 5%;
+}
+div#leftGal #button{
+	width: 100%;
+}
+/**************************/
+/*   selectable images  */
+#selectable .ui-selecting{
+	background: #FECA40;
+}
+#selectable .ui-selected{
+	background: #F39814;
+	color: white;
+}
+#selectable{
+	list-style-type: none;
+	margin-left: 5%;
+	padding: 0; 
+	width: 90%;
+}
+#selectable li{
+	float: left;
+	width: 100%;
+	height: 180px; 
+	font-size: 0.8em;
+	text-align: center; 
+}
+
+div#theGal img.rotate{
+	width: auto;
+	height: 100px;
+}
+
+/*********************************************/
+/* Styling for image rotator */
+#homeContent #imgRotate {
+    float: right;
+    height:250px;
+    width:250px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+#imgRotate div {
+    position: absolute;
+    z-index: 0;
+}
+#imgRotate div.previous {
+    z-index: 1;
+}
+#imgRotate div.current {
+    z-index: 2;
+}
+/*********************************************/
+/* table striping */
+div#openingHrs{
+	width: 250px;
+	float: right;
+}
+table#openHrsTable{
+	width: 100%;
+}
+#openHrsTable th{
+	text-align: center;
+	padding-top:0.3em;
+	padding-bottom: 0.4em;
+	background: #333333 url("images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png") 50% 50% repeat;
+	width: 100%;
+}
+#openHrsTable tr{
+	background: #214E7D;/*#3EA7FD#05B5F9#74DFD9#3F8484#0094D3#214E7D#1F456F*/
+}
+#openHrsTable td{
+	/*color: black;*/
+	padding-left: 1em;
+	padding-top:0.2em;
+	padding-right: 1em;
+	padding-bottom: 0.3em;
+}
+#openHrsTable tr.oddRow{
+	background: #3F8484;
+}
+#openHrsTable tr.sunday{
+	background: #E4B6C9;
+	color: black;
+}
+
+
+/******************************************/
+/* diving courses nested list styling */
+ul#diveLists li{
+	margin-left: -0.8em;
+}
+.outerList{
+	font-size: 1.0em;
+	float: left;
+	width: 25%;
+	display: inline;
+	list-style: none;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+.innerListItem{
+	font-size: 0.8em;
+	font-weight: normal;
+	color: yellow;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.innerUlList{
+	list-style-type: none;
+}
+
+.listImg{
+	margin-top: 1em;
+	width: 12%;
+	background: white;
+	float: right;
+}
+
+/******************************************/
+/* extra Styling for accordion widget */
+
+#accordion, #tabs{
+	width: 85%;
+	float: left;
+	margin-left: 5%;
+	/*margin-left: 10%;*/
+}
+#tabs{
+	/*width: 90%;*/
+	float: left;
+	margin-left: 5%;
+}	
+#accordion img{
+	float: right;
+	margin-right: 2%;
+	margin-left: 5%;
+}
+
+/*********************************************/
+/* Styling for tooltips */
+#doTip, #dontTip{
+	width: 47%;
+	float: left;
+	text-align: center;
+	margin-bottom: 2em;
+}
+#doTip a, #dontTip a{
+	text-decoration: none;
+	margin-top: 0.5em;
+}
+
+span.green{
+	color: green;
+}
+span.red{
+	color: red;
+}
+
+a#wordLink{
+	color: green;
+	text-decoration: none;
+}
+/*********************************************/
+/* images - side nav */
+.icon{
+	display: inline;
+	float: left;
+}
+#homeBubb{
+	margin-top: -1.1em;
+}
+#eventBubb{
+	margin-top: -0.3em;
+}
+#infoBubb{
+	margin-top: -0.9em;
+}
+#gallBubb{
+	margin-top: -0.6em;
+}
+#locationBubb{
+	margin-top: -0.3em;
+}
+
+.navIcon{
+	display: inline;
+	float: left;
+}
+
+/* images - email, word download */
+.wordIcon{
+	margin-bottom: -0.5em;
+}
+
+/*********************************************/
+
+/*********************************************/
+/* Styling for map box */
+#locationContent div.noWrap{
+	margin-left: 3%;
+	padding-top: 0.4em;
+	padding-bottom: 0.6em;
+	width: 97%;
+	color: white;
+	line-height: 1.5em;
+	background: #333333 url("images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png") 50% 50% repeat;
+}
+
+div#map-wrapper{
+float: left;
+display: block;
+clear: right;
+	width: 97%;
+	height: 600px;/*600px;*/
+	margin-left: 3%;
+	background: #E0E0E0;
+
+}
+#map-canvas{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+#directionsPanel{
+	width: 35%;
+	height: 100%;
+	margin-left: 2%;
+	float: left;
+	overflow: auto;
+}
+
+
+
+
+
+
+
+

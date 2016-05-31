@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Events</title>
+	<style>
+		/* next 3 css files are from the jquery themeroller download */
+		@import "css/jquery-ui.css";
+		@import "css/jquery-ui.structure.css";
+		@import "css/jquery-ui.theme.css";
+
+		@import "css/diveStyle.css";
+		@import "css/headNfoot.css";
+		@import "font-awesome-4.2.0/css/font-awesome.css";
+	</style>
+
+	<script type="text/javascript" src="javaScript/jquery-1.11.1.js"></script>
+	<!-- jquery-ui.js is from the jquery themeroller download -->
+	<script type="text/javascript" src="javaScript/jquery-ui.js"></script>
+	<script type="text/javascript" src="javaScript/dunkin.js"></script>
+
+</head>
+
+<body>
+	<!--  ********************  HTML Body  ********************  -->
+	<img src="images/coral_reef.jpg" alt="background image" id="bg_img">
+	<div id="wrapper">
+
+		<!--  ********************  Header  ********************  -->
+		<div id="header">
+			<button id="styleButton"><span class="fa fa-eye fa-2x"></span></button>
+			<img width="16" src="images/seahorse1.png" class="headImg" alt="seaHorse_image">
+			<h1 class="headerTxt">Dunkin Divers</h1>
+			<img width="16" src="images/seahorse.png"  class="headImg" id="headImgRight" alt="seaHorse_image">
+		</div>
+
+		<!--  ********************  Nav Bar  ********************  -->
+		<!--  *** right-col, fixed width  ***-->
+		<aside>
+			<ol class="linkList">
+				<li>
+					<a href="index.html">
+						<img width="60" src="images/bubble_003.png" class="navIcon" id="homeBubb" alt="bubble image">
+						&nbsp;Home Page
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="event.html" id="thisPage">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="eventBubb" alt="bubble image">
+						&nbsp;Events
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="info.html">
+						<img width="55" src="images/bubble_003.png" class="navIcon" id="infoBubb" alt="bubble image">
+						&nbsp;Information
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="gallery.html">
+						<img width="45" src="images/bubble_003.png" class="navIcon" id="gallBubb" alt="bubble image">
+						&nbsp;Gallery
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="location.html">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="locationBubb" alt="bubble image">
+						&nbsp;Location
+					</a>
+				</li>
+			</ol>
+		</aside>
+
+		<!--  ********************  Content  ********************  -->
+		<div id="eventContent">
+
+			<div id="accordion">
+				<h3>Social Events</h3>
+				<div>
+					<h3><span class="fa fa-beer"></span>&nbsp;Beer</h3>
+					<p>
+					Every Saturday in the PierHouse<br>
+					No dancing with your fins on !
+					</p>
+				</div>
+				<h3>Diving Courses</h3>
+				<div>
+
+					<img class="listImg" src="images/padiLogo.png" alt="padi logo">
+
+					<ul id="diveLists">
+						<li><span class="fa fa-anchor fa"></span>&nbsp;Starter Courses
+							<ul class="innerList">
+								<li>Bubble Babies</li>
+								<li>Discover Scuba</li>
+								<li>Open Water Diver</li>
+								<li>&nbsp;</li><li>&nbsp;</li>
+							</ul>
+						</li>
+						<li><span class="fa fa-anchor fa"></span>&nbsp;Advanced
+							<ul class="innerList">
+								<li>Advanced</li>
+								<li>Rescue Diver</li>
+								<li>Night Diver</li>
+								<li>Underwater Navigator</li>
+								<li>Search and Rescue</li>
+							</ul>
+						</li>
+						<li><span class="fa fa-anchor fa"></span>&nbsp;Technical Courses
+							<ul class="innerList">
+								<li>Deep Diver</li>
+								<li>Wreck Diver</li>
+								<li>Nitrous Mix.</li>
+								<li>Drysuit Diver</li>
+							</ul>
+						</li>
+
+					</ul>
+					<p class="noWrap">
+						<span class="fa fa-graduation-cap fa"></span>&nbsp;All our instructors are fully qualified Divemasters with a minimum of five years<br> experience in all aspects of training including satety and first aid.
+					</p>
+				</div>
+				<h3 id="trip">Club Dive Trips</h3>
+				<div id="tripDiv">
+					Upcoming Trips :
+					<p>
+						<img src="images/Diver_down.GIF" alt="scuba amimation">
+					</p>
+					<div id="tripInfo">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<!--  ********************  Footer  ********************-->
+		<footer>
+			<div id="rightFoot">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						alt="Valid CSS!" />
+				</a>
+			</div>
+
+			<div id="leftFoot">
+				Daragh Walshe&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="images/email.png" class="wordIcon" alt="email icon">
+				<a href="mailto:B00064428@student.itb.ie">B00064428@student.itb.ie</a>
+				<img src="images/thSCUBA.GIF" alt="scuba amimation">
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
+
+
+

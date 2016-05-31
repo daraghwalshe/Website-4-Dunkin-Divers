@@ -1,0 +1,27 @@
+
+
+
+{
+	"tripInfo1": {
+		"location": "Bailey Lighthouse",
+		"date": "Every Saturday 10:00am",
+		"description": "Our weekly beginners trips. These trips are designed to allow our newer members to perfect their dive technique. Two instructors will be available for each session. This is a valuable resource available to all members. Note the price quoted is only for equipment hire, if you are a member and have your own gear, there is no charge.",
+		"price": "35"
+		},
+	"tripInfo2": {
+		"location": "Lambay Island",
+		"date": "15 November 2014",
+		"description": "A trip to our local favourite dive site. <i>Sunk Island Bay,</i> on the South of the island is the spot we plan on visiting. The current should be light for the time of the dive and the site is expected to have good visibility and plenty of marine life, so it would be a great dive for our beginner divers.",
+		"price": "25 per person, boat costs"
+		},   	
+	"tripInfo3": {
+		"location": "U260, Galley Head, Co. Cork",
+		"date": "22-23 November 2014",
+		"description": "Last big trip of the year. The U260 is a VIIC German u-boat , sunk during active service in 1942. It is is challenging dive with the wreck lying at a depth of 44m, with possible strong currents. Only divers with open water or higher certification will be allowed down on this dive. A cheap weekend away with plenty of excitement.",
+		"price": "120 per person inclusive"
+		} 
+}
+
+
+
+

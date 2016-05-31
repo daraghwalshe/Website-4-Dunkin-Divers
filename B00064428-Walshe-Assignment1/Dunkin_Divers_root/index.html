@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Home Page</title>
+	<style>
+		/* next 3 css files are from the jquery themeroller download */
+		@import "css/jquery-ui.css";
+		@import "css/jquery-ui.structure.css";
+		@import "css/jquery-ui.theme.css";
+
+		@import "css/diveStyle.css";
+		@import "css/headNfoot.css";
+		@import "font-awesome-4.2.0/css/font-awesome.css";
+	</style>
+
+	<script type="text/javascript" src="javaScript/jquery-1.11.1.js"></script>
+	<!-- jquery-ui.js is from the jquery themeroller download -->
+	<script type="text/javascript" src="javaScript/jquery-ui.js"></script>
+	<script type="text/javascript" src="javaScript/index.js"></script>
+	<script type="text/javascript" src="javaScript/dunkin.js"></script>
+
+</head>
+
+<body>
+	<!--  ********************  HTML Body  ********************  -->
+	<img src="images/coral_reef.jpg" alt="background image" id="bg_img">
+	<!-- underwater.jpg blue_water.jpg coral_reef.jpg deepBlue.jpg-->
+
+	<div id="wrapper">
+
+		<!--  ********************  Header  ********************  -->
+		<div id="header">
+			<button id="styleButton"><span class="fa fa-eye fa-2x"></span></button>
+			<img width="16" src="images/seahorse1.png" class="headImg" alt="seaHorse_image">
+			<h1 class="headerTxt">Dunkin Divers</h1>
+			<img width="16" src="images/seahorse.png"  class="headImg" id="headImgRight" alt="seaHorse_image">
+		</div>
+
+		<!--  ********************  Nav Bar  ********************  -->
+		<!--  *** right-col, fixed width  ***-->
+		<aside>
+			<ol class="linkList">
+				<li>
+					<a href="index.html" id="thisPage">
+						<img width="60" src="images/bubble_003.png" class="navIcon" id="homeBubb" alt="bubble image">
+						&nbsp;Home Page
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="event.html">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="eventBubb" alt="bubble image">
+						&nbsp;Events
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="info.html">
+						<img width="55" src="images/bubble_003.png" class="navIcon" id="infoBubb" alt="bubble image">
+						&nbsp;Information
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="gallery.html">
+						<img width="45" src="images/bubble_003.png" class="navIcon" id="gallBubb" alt="bubble image">
+						&nbsp;Gallery
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="location.html">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="locationBubb" alt="bubble image">
+						&nbsp;Location
+					</a>
+				</li>
+			</ol>
+		</aside>
+
+		<!--  ********************  Content  ********************  -->
+		<div id="homeContent" class="content">
+
+			<!--  **************  Slideshow  **************  -->
+			<div id="imgRotate">
+				<div class="current">
+					<img src="images/scubaImg_1.jpg" alt="dive photo" width="250" height="250" class="rotate">
+				</div>
+				<div>
+					<img src="images/scubaImg_2.jpg" alt="dive photo" width="250" height="250" class="rotate">
+				</div>
+				<div>
+					<img src="images/scubaImg_3.jpg" alt="dive photo" width="250" height="250" class="rotate">
+				</div>
+				<div>
+					<img src="images/scubaImg_4.jpg" alt="dive photo" width="250" height="250" class="rotate">
+				</div>
+			</div>
+
+
+			<div class="leftCol">
+				<h2><span class="fa fa-anchor fa"></span>&nbsp;Welcome to &acute;Dunkin Divers&acute;, Dublins newest dive club.</h2>
+
+				<h3><span class="fa fa-star fa"></span>&nbsp;Underwater Sport</h3>
+				<p>Scuba diving is currently the worlds fastest growing sport. Here on the site you can see great images from some of our members previous exploits. You can also find details of all the courses we offer. We have a great range with something to engage divers at all levels of the sport.</p>
+
+				<h3><span class="fa fa-users fa"></span>&nbsp;Join us</h3>
+				<p>We are a newly formed dive club located on the West pier of the beautiful fishing harbour of howth. We are currently looking for new members. So if you are either a salty veteran of the deep or a complete novice, come on in and enjoy the site, you might find just what you were looking for.</p>
+
+				<h3><span class="fa fa-bolt fa"></span>&nbsp;Newsflash</h3>
+				<p>Come in and check out our new walk-in shop here on Howth harbour. We have a great range of equipment, including some newly serviced second hand gear. Check out our opening times on this page.</p>
+			</div>
+
+
+			<!--  **************  Open hours table  **************  -->
+			<div id="openingHrs">
+				<table id="openHrsTable">
+					<th colspan="2">
+						Shop opening hours:
+					</th>
+					<tr class="oddRow">
+						<td>Monday</td><td>9 - 5pm</td>
+					</tr>
+					<tr>
+						<td>Tuesday</td><td>9 - 5pm</td>
+					</tr>
+					<tr class="oddRow">
+						<td>Wednesday</td><td>8:30 - 1pm</td>
+					</tr>
+					<tr>
+						<td>Thursday</td><td>9 - 5pm</td>
+					</tr>
+					<tr class="oddRow">
+						<td>Friday</td><td>9 - 4:30pm</td>
+					</tr>
+					<tr>
+						<td>Saturday</td><td>12:00 - 4</td>
+					</tr>
+					<tr class="sunday">
+						<td>Sunday</td><td>Closed</td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+
+		<!--  ********************  Footer  ********************-->
+		<footer>
+			<div id="rightFoot">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						alt="Valid CSS!" />
+				</a>
+			</div>
+
+			<div id="leftFoot">
+				Daragh Walshe&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="images/email.png" class="wordIcon" alt="email icon">
+				<a href="mailto:B00064428@student.itb.ie">B00064428@student.itb.ie</a>
+				<img src="images/thSCUBA.GIF" alt="scuba amimation">
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
+
+
+

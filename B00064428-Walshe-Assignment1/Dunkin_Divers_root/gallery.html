@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Gallery</title>
+	<style>
+		/* next 3 css files are from the jquery themeroller download */
+		@import "css/jquery-ui.css";
+		@import "css/jquery-ui.structure.css";
+		@import "css/jquery-ui.theme.css";
+
+		@import "css/diveStyle.css";
+		@import "css/headNfoot.css";
+		@import "font-awesome-4.2.0/css/font-awesome.css";
+	</style>
+
+	<script type="text/javascript" src="javaScript/jquery-1.11.1.js"></script>
+	<!-- jquery-ui.js is from the jquery themeroller download -->
+	<script type="text/javascript" src="javaScript/jquery-ui.js"></script>
+	<script type="text/javascript" src="javaScript/dunkin.js"></script>
+	<script type="text/javascript" src="javaScript/gallery.js"></script>
+</head>
+
+<body>
+	<!--  ********************  HTML Body  ********************  -->
+	<img src="images/coral_reef.jpg" alt="background image" id="bg_img">
+	<div id="wrapper">
+
+		<!--  ********************  Header  ********************  -->
+		<div id="header">
+			<button id="styleButton"><span class="fa fa-eye fa-2x"></span></button>
+			<img width="16" src="images/seahorse1.png" class="headImg" alt="seaHorse_image">
+			<h1 class="headerTxt">Dunkin Divers</h1>
+			<img width="16" src="images/seahorse.png"  class="headImg" id="headImgRight" alt="seaHorse_image">
+		</div>
+
+		<!--  ********************  Nav Bar  ********************  -->
+
+		<!--  *** right-col, fixed width  ***-->
+		<aside>
+			<ol class="linkList">
+				<li>
+					<a href="index.html">
+						<img width="60" src="images/bubble_003.png" class="navIcon" id="homeBubb" alt="bubble image">
+						&nbsp;Home Page
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="event.html">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="eventBubb" alt="bubble image">
+						&nbsp;Events
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="info.html">
+						<img width="55" src="images/bubble_003.png" class="navIcon" id="infoBubb" alt="bubble image">
+						&nbsp;Information
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="gallery.html" id="thisPage">
+						<img width="45" src="images/bubble_003.png" class="navIcon" id="gallBubb" alt="bubble image">
+						&nbsp;Gallery
+					</a>
+				</li>
+				<hr>
+				<li>
+					<a href="location.html">
+						<img width="35" src="images/bubble_003.png" class="navIcon" id="locationBubb" alt="bubble image">
+						&nbsp;Location
+					</a>
+				</li>
+			</ol>
+		</aside>
+
+		<!--  ********************  Content  ********************  -->
+		<div id="galleryContent">
+
+			<div id="leftGal">
+				<button id="button">Play</button>
+				<ol id="selectable">
+				  <li class="ui-state-default" id="sBut1">
+				  	<img src="images/images/butt1.jpg" alt="dive photo" class="selectImg">
+				  </li>
+				  <hr></br>
+
+				  <li class="ui-state-default" id="sBut2">
+				  	<img src="images/images/butt2.jpg" alt="dive photo" class="selectImg">
+				  </li>
+				  <hr></br>
+
+				  <li class="ui-state-default" id="sBut3">
+				  	<img src="images/images/butt3.jpg" alt="dive photo" class="selectImg">
+				  </li>
+				  <hr></br>
+				</ol>
+			</div>
+
+			<div id="rightGal">
+				<div id="theGal" class="ui-widget-content">
+				<!--<h1 class="ui-widget-header">Slideshow: resizeable</h1>-->
+
+					<div id="imgRotate">
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--  ********************  Footer  ********************-->
+		<footer>
+			<div id="rightFoot">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						alt="Valid CSS!" />
+				</a>
+			</div>
+
+			<div id="leftFoot">
+				Daragh Walshe&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="images/email.png" class="wordIcon" alt="email icon">
+				<a href="mailto:B00064428@student.itb.ie">B00064428@student.itb.ie</a>
+				<img src="images/thSCUBA.GIF" alt="scuba amimation">
+			</div>
+		</footer>
+
+	</div>
+</body>
+</html>
+
+
+
