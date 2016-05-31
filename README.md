@@ -18,6 +18,6 @@ This was a seperate joint project and has it's own github repo.
 
 ####Website hosted on [daragh.co/dunkindivers] (http://daragh.co/dunkindivers/index.html)
 <hr/>
-![alt app_image](https://github.com/daraghwalshe/Website-4-Dunkin_Divers/blob/master/screenshot.PNG)
+![alt app_image](https://github.com/daraghwalshe/Website-4-Dunkin-Divers/blob/master/screenshot.PNG)
 
 
